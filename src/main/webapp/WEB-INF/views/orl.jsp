@@ -1,5 +1,4 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page session="false" %>
 <html>
 <head>
@@ -44,7 +43,7 @@
 									<li><a class="icon solid fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>
 									<li><a class="icon solid fa-retweet" href="right-sidebar.html"><span>Right Sidebar</span></a></li>
 									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
-									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>회원가입</span></a></li>
+									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>íìê°ì</span></a></li>
 									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>login</span></a></li>
 								</ul>
 							</nav>
@@ -144,7 +143,37 @@
 											</ul>
 										</article>
 
-								
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><a href="#">By the way, many thanks to <strong>regularjane</strong>
+												for these awesome demo photos</a></h2>
+											</header>
+											<a href="#" class="image featured"><img src="resources/images/pic05.jpg" alt="" /></a>
+											<h3>You should probably check out her work</h3>
+											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
+											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
+											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
+											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
+											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
+											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
+											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
+											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
+											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
+											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
+											Curabitur leo nibh, rutrum malesuada.</p>
+											<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
+											Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
+											vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
+											magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
+											tristique at erat. Curabitur leo nibh, rutrum eu malesuada in, tristique
+											at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
+											tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
+											magna tempus.</p>
+											<ul class="actions">
+												<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
+											</ul>
+										</article>
 
 								</div>
 
@@ -196,7 +225,47 @@
 											</ul>
 										</section>
 
-									
+									<!-- Highlights -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Highlight -->
+														<article class="box highlight">
+															<header>
+																<h3><a href="#">Something of note</a></h3>
+															</header>
+															<a href="#" class="image left"><img src="resources/images/pic06.jpg" alt="" /></a>
+															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
+															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
+															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
+															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
+															<ul class="actions">
+																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
+															</ul>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Highlight -->
+														<article class="box highlight">
+															<header>
+																<h3><a href="#">Something of less note</a></h3>
+															</header>
+															<a href="#" class="image left"><img src="resources/images/pic07.jpg" alt="" /></a>
+															<p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
+															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
+															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
+															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
+															<ul class="actions">
+																<li><a href="#" class="button icon solid fa-file">Learn More</a></li>
+															</ul>
+														</article>
+
+												</li>
+											</ul>
+										</section>
 
 								</div>
 
