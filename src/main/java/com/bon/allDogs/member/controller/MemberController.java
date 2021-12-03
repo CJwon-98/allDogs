@@ -29,14 +29,14 @@ public class MemberController {
     /**
      * Simply selects the home view to render by returning its name.
      */
-    @RequestMapping(value = "/home3", method = RequestMethod.GET)
+    @RequestMapping(value = "/home2", method = RequestMethod.GET)
     public String home(Locale locale, Model model) throws Exception{
  
         logger.info("home2");
         
-        List<MemberVO> memberList = service.selectMember();
+        List<MemberVO> user = service.selectMember();
         
-        model.addAttribute("memberList", memberList);
+        model.addAttribute("user", user);
  
         return "/home2";
     }
